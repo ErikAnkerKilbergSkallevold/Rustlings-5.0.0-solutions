@@ -3,12 +3,20 @@
 // pass! Make the test fail!
 // Execute `rustlings hint tests2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
+
+
+
+fn five() -> u8 {
+    5
+}
+
 
 #[cfg(test)]
 mod tests {
+    use super::*;
     #[test]
     fn you_can_assert_eq() {
-        assert_eq!();
+        let five = five();
+        assert_eq!(5, five);
     }
 }
