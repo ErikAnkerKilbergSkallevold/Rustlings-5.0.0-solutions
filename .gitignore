@@ -10,3 +10,8 @@ rust-project.json
 .vscode
 *.iml
 *.o
+*.pdb
+install.sh
+install.ps1
+src/
+tests/
